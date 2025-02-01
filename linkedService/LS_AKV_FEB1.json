@@ -1,0 +1,11 @@
+{
+	"name": "LS_AKV_FEB1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://batch2KV.vault.azure.net/"
+		}
+	}
+}
