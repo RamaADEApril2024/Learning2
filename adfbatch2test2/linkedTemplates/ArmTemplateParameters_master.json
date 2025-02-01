@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfbatch2test2"
+		},
+		"LS1_Bronze_ADLS_accountKey": {
+			"value": ""
+		},
+		"bronze_accountKey": {
+			"value": ""
+		},
+		"LS1_Bronze_ADLS_properties_typeProperties_url": {
+			"value": "https://adlstestbatch2.dfs.core.windows.net/"
+		},
+		"LS_AKV_FEB1_properties_typeProperties_baseUrl": {
+			"value": "https://batch2KV.vault.azure.net/"
+		},
+		"LS_AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://batch2KV.vault.azure.net/"
+		},
+		"bronze_properties_typeProperties_url": {
+			"value": "https://adlstestbatch2.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
